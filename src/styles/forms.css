@@ -9,11 +9,6 @@
     --cinzaEscuro: #818181;
 }
 
-@font-face {
-    font-family: 'WorkSansRegular';
-    src: url(../fonts/WorkSans-Regular.ttf);
-}
-
 input[type=text], input[type=password] {
     border: none;
     border-radius: 7px;
@@ -25,7 +20,7 @@ input[type=text], input[type=password] {
     background-color: var(--cinzaClaro);
 
     color: var(--cinzaEscuro);
-    font-family: 'WorkSansRegular';
+    font-family: WorkSansRegular;
     font-style: normal;
     font-weight: 400;
 }
@@ -50,6 +45,16 @@ button {
     background-color: var(--verdePrincipal);
 }
 
-    .btnConfirm:hover {
+    .btnConfirm:hover, .btnConfirm:focus {
         background-color: var(--darkenVerdePrincipal);
     }
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 18px;
+
+    width:fit-content;
+    height:fit-content;
+}
