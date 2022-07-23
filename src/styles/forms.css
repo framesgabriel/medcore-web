@@ -9,9 +9,30 @@
     --cinzaEscuro: #818181;
 }
 
-.btn {
+@font-face {
+    font-family: 'WorkSansRegular';
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+input[type=text], input[type=password] {
     border: none;
-    border-radius: 12px;
+    border-radius: 7px;
+    padding: 0 15px;
+
+    width: 230px;
+    height: 40px;
+
+    background-color: var(--cinzaClaro);
+
+    color: var(--cinzaEscuro);
+    font-family: 'WorkSansRegular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
     
     width: 160px;
     height: 40px;
