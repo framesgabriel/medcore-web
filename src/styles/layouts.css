@@ -26,6 +26,8 @@ main {
 .card {
     width: 70%;
     border-radius: 10px;
+    height: 80%;
+    background: linear-gradient(to right,  var(--verdePrincipal) 0%,var(--verdePrincipal) 45%,white 0%,white 100%);
 }
 
 .bgVerdeClaro {
@@ -41,11 +43,11 @@ main {
 }
 
 .welcome_title {
-    color: var(--verdePrincipal);
+    color: var(--verdeClaro);
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 #entName {
