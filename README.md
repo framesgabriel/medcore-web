@@ -1,4 +1,4 @@
-<img width="100%" src="../medcore-web/docs/img/medcore-doc-banner.png">
+<img width="100%" src="https://github.com/framesgabriel/medcore-web/blob/master/docs/img/medcore-doc-banner.png">
 
 ## MedCore
 Nada aqui por enquanto... Volte mais tarde! ⏳
