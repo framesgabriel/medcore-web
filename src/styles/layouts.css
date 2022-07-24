@@ -44,7 +44,7 @@ main {
 
 .welcome_title {
     color: var(--verdeClaro);
-    font-family: 'Montserrat';
+    font-family: MontserratBold;
     font-style: normal;
     font-weight: 700;
     font-size: 300%;
