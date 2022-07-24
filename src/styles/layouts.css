@@ -54,4 +54,7 @@ main {
     color: var(--cinzaEscuro);
     font-size: 80%;
     font-family: WorkSansRegular;
+    bottom: 13%;
+    position: absolute;
+    right: 30%;
 }
