@@ -9,15 +9,32 @@
     --cinzaEscuro: #818181;
 }
 
-input[type=text], input[type=password] {
-    border: none;
-    border-radius: 7px;
-    padding: 0 15px;
-
-    width: 230px;
+.inputWithIcon {
+    width: 300px;
     height: 40px;
 
+    border-radius: 7px;
     background-color: var(--cinzaClaro);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    .inputWithIcon:focus-within {
+        border: 1px solid var(--darkenVerdePrincipal);
+    }
+
+.inputIcon {
+    color: var(--cinzaEscuro);
+}
+
+input[type=text], input[type=password] {
+    width: 75%;
+    height: 100%;
+
+    border: none;
+    background: none;
 
     color: var(--cinzaEscuro);
     font-family: WorkSansRegular;
@@ -53,6 +70,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: end;
+
     gap: 18px;
     position: absolute;
     right: 20%;
