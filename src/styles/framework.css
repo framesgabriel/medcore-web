@@ -1,0 +1,39 @@
+:root {
+    --verdePrincipal: #3FE0D0;
+    --lightenVerdePrincipal: #6FE8DC;
+    --darkenVerdePrincipal: #28BDAE;
+
+    --verdeClaro: #E8FFFD;
+
+    --cinzaClaro: #F8F8F8;
+    --cinzaEscuro: #818181;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.bgVerdeClaro {
+    background-color: var(--verdeClaro);
+}
+
+.bgVerdePrincipal {
+    background-color: var(--verdePrincipal);
+}
+
+.card {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

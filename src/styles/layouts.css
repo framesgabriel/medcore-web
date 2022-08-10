@@ -1,60 +1,62 @@
-:root {
-    --verdePrincipal: #3FE0D0;
-    --lightenVerdePrincipal: #6FE8DC;
-    --darkenVerdePrincipal: #28BDAE;
+/* #region LOGIN */
+#cardLogin {
+    width: 60%;
+    height: 80%;
 
-    --verdeClaro: #E8FFFD;
+    display: flex;
+    align-items: center;
 
-    --cinzaClaro: #F8F8F8;
-    --cinzaEscuro: #818181;
+    /* background: linear-gradient(to right,  var(--verdePrincipal) 0%,var(--verdePrincipal) 45%,white 0%,white 100%); */
 }
 
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
-main {
+#cardImageLogin {
+    width: 45%;
     height: 100%;
-    width: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background: var(--verdePrincipal) url(../assets/img/background-image-login.jpg) no-repeat center;
 }
 
-.card {
-    width: 70%;
-    border-radius: 10px;
-    height: 80%;
-    background: linear-gradient(to right,  var(--verdePrincipal) 0%,var(--verdePrincipal) 45%,white 0%,white 100%);
+#welcomeTitle {
+    color: white;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 200%;
+    font-family: MontserratExtraBold;
 }
 
-.bgVerdeClaro {
-    background-color: var(--verdeClaro);
+#cardFormLogin {
+    width: 55%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.bgVerdePrincipal {
-    background-color: var(--verdePrincipal);
+#loginLogo {
+    width: 45%;
+    padding-top: 20%;
 }
 
-.card {
-    background-color: white;
-}
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 
-.welcome_title {
-    color: var(--verdeClaro);
-    font-family: MontserratBold;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 300%;
+    gap: 18px;
+    width:fit-content;
+    height:fit-content;
 }
 
 #entName {
     color: var(--cinzaEscuro);
     font-size: 80%;
     font-family: WorkSansRegular;
-    bottom: 13%;
-    position: absolute;
-    right: 30%;
 }
+
+/* #endregion LOGIN */

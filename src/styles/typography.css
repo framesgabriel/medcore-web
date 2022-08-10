@@ -1,9 +1,14 @@
 @font-face {
     font-family: 'MontserratBold';
-    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url(../assets/fonts/Montserrat-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: 'WorkSansRegular';
-    src: url(../fonts/WorkSans-Regular.ttf);
+    src: url(../assets/fonts/WorkSans-Regular.ttf);
 }
