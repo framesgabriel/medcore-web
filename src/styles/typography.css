@@ -12,3 +12,7 @@
     font-family: 'WorkSansRegular';
     src: url(../assets/fonts/WorkSans-Regular.ttf);
 }
+
+h1 {
+    font-family: MontserratBold;
+}
