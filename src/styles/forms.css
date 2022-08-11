@@ -1,8 +1,11 @@
 .inputWithIcon {
-    width: 300px;
+    width: 100%;
     height: 40px;
 
     border-radius: 7px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     background-color: var(--cinzaClaro);
 
     display: flex;
